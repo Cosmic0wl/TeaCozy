@@ -1,0 +1,118 @@
+body, #header a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+}
+
+#header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+ #header nav {
+   flex-grow: 1;
+   display: inline-block;
+   text-align: right;
+ }
+
+#header a {
+  text-decoration: underline;
+  padding-right: 40px;
+}
+
+#container {
+  padding-top: 100px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  background-image: url("../img/mission.jpg");
+  height: 700px;
+}
+
+#mission .description {
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+
+#tea {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+  width: 300px;
+}
+
+.item h4 {
+  text-align: center;
+  display: block;
+}
+
+.item {
+  padding-right: 5px;
+}
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  margin: auto;
+  background-image: url("../img/bckgr.jpg");
+}
+
+#locations .flex {
+  margin: auto;
+  width: 1100px;
+}
+
+.loc {
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  height: 200px;
+  opacity: 0.9;
+}
+
+#footer p {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 0.9;
+}
